@@ -117,11 +117,11 @@ document.querySelectorAll("[data-year]").forEach((el) => (el.textContent = new D
 
 (function player() {
   const TRACKS = [
-    { title: "Starfall", artist: "Nova Kale", duration: 204, root: 57, prog: [0, 8, 3, 10], bpm: 96 },
-    { title: "Slow Burn", artist: "Solenne", duration: 221, root: 55, prog: [0, 5, 3, 7], bpm: 78 },
-    { title: "Ember Season", artist: "KAIRO", duration: 178, root: 52, prog: [0, 3, 8, 10], bpm: 112 },
-    { title: "Afterglow", artist: "The Low Tide", duration: 190, root: 60, prog: [0, 9, 5, 7], bpm: 88 },
-    { title: "Wildfire", artist: "Ember & Ash", duration: 212, root: 50, prog: [0, 10, 8, 7], bpm: 104 },
+    { title: "Halfway", artist: "Lord, Saint, Sinner", duration: 204, root: 57, prog: [0, 8, 3, 10], bpm: 96 },
+    { title: "Hide", artist: "Lord, Saint, Sinner", duration: 221, root: 55, prog: [0, 5, 3, 7], bpm: 78 },
+    { title: "FU money", artist: "Lord, Saint, Sinner", duration: 178, root: 52, prog: [0, 3, 8, 10], bpm: 112 },
+    { title: "Neva Chop White Jeans", artist: "Lord, Saint, Sinner", duration: 190, root: 60, prog: [0, 9, 5, 7], bpm: 88 },
+    { title: "ZA ODA", artist: "Lord, Saint, Sinner", duration: 212, root: 50, prog: [0, 10, 8, 7], bpm: 104 },
   ];
 
   const root = document.documentElement;
