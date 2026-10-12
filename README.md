@@ -4,17 +4,18 @@ Static, dependency-free website for Lord, Saint, Sinner, an independent music co
 
 ## Pages
 
+This `landing` branch is the single-page landing site delivered to the client:
+
 | File | Page |
 | --- | --- |
-| `index.html` | Home: hero with an interactive 3D phone player (turns as you scroll; drag, swipe or arrow keys to spin it), roster, featured release, "Listen everywhere" streaming links, services, shows, journal, newsletter |
-| `about.html` | Story, the logo and what it means, values, timeline, leadership team |
-| `artists.html` | Roster with genre filter and artist spotlight |
-| `releases.html` | Latest release tracklist, filterable catalogue, playlists |
-| `services.html` | Six services, demo-to-debut process, FAQ |
-| `events.html` | Filterable tour dates, Heatwave Festival, live formats |
-| `news.html` | Journal with category filter and press kit |
-| `contact.html` | Enquiry / demo form, studios, careers |
-| `404.html` | Not-found page |
+| `index.html` | Landing page. The navigation scrolls to its sections: About, Artist, Music, Listen, Services, Live, Journal, Contact |
+| `404.html` | Not-found page, linking back to the landing page |
+
+The full multi-page site lives on `main`.
+
+## Deploying (Vercel)
+
+No build step. Import the repo as a Vercel project with Framework Preset "Other", set the production branch to `landing` (Settings → Git), and add the domain to that project.
 
 ## Running locally
 
