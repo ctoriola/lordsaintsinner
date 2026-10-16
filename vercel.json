@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/webmail", "destination": "http://mail.lordsaintsinner.com/webmail/", "permanent": false },
+    { "source": "/webmail/:path*", "destination": "http://mail.lordsaintsinner.com/webmail/", "permanent": false }
+  ]
+}
